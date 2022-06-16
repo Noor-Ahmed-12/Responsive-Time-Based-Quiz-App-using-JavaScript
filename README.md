@@ -43,5 +43,5 @@
 # 🔥Demo
 <h3><a href="https://jsfiddle.net/Noor_Ahmed_Shaikh/qg3eufvb/" target="_blank">Visit Quiz App</a></h3>
 
-#Download
-<h3><a href="[https://jsfiddle.net/Noor_Ahmed_Shaikh/qg3eufvb/](https://github.com/Noor-Ahmed-12/Responsive-Time-Based-Quiz-App-using-JavaScript/archive/refs/heads/main.zip)">Download Code</a></h3>
+# Download
+<h3><a href="https://github.com/Noor-Ahmed-12/Responsive-Time-Based-Quiz-App-using-JavaScript/archive/refs/heads/main.zip">Download Code</a></h3>
