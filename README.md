@@ -39,4 +39,4 @@
 
 
 # 🔥Demo
-<a href="https://jsfiddle.net/Noor_Ahmed_Shaikh/qg3eufvb/" target="_blank"><img src="https://freefrontend.com/assets/img/css-buttons/stripe-button.gif"></a>
+<a href="https://jsfiddle.net/Noor_Ahmed_Shaikh/qg3eufvb/" target="_blank">Visit Quiz App/a>
