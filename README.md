@@ -2,7 +2,7 @@
 ### Responsive Advanced Quiz App using JavaScript
 
 ## Features:
- <ul>
+ <ul style="list-style:none;">
     <li>⏱You will have only <span>15 seconds</span> per each</li>
     <li>🤞You can't select any option once time goes off.</li>
     <li>⚖You can't exit from the Quiz while you're playing.</li>
