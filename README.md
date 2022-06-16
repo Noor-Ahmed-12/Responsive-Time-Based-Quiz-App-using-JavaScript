@@ -3,10 +3,11 @@
 
 ## Features:
  <ul>
-    <li>You will have only <span>15 seconds</span> per each</li>
-    <li> You can't select any option once time goes off.</li>
-    <li>You can't exit from the Quiz while you're playing.</li>
-    <li>Once you select your answer, it can't be undone.</li>
+    <li>⏱You will have only <span>15 seconds</span> per each</li>
+    <li>🤞You can't select any option once time goes off.</li>
+    <li>⚖You can't exit from the Quiz while you're playing.</li>
+    <li>🎃Once you select your answer, it can't be undone.</li>
+   <li>⏳sliding bar running based on time</li>
   </ul>
  
  # Some snippets of interface
@@ -19,5 +20,5 @@
 ![screencapture-file-F-web-dev-practice-JS-quiz-app-index-html-2022-06-16-11_44_47](https://user-images.githubusercontent.com/60597502/174133527-f7d3cee3-2f6d-489e-bb7a-8ccd49de0389.png)
 
 
-# Demo
+# 🔥Demo
 <button><a href="https://jsfiddle.net/Noor_Ahmed_Shaikh/qg3eufvb/">Quiz App</a></button>
