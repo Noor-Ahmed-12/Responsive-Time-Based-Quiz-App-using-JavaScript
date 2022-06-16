@@ -3,11 +3,11 @@
 
 ## Features:
  <ul style="list-style:none;">
-    <li>⏱You will have only <span>15 seconds</span> per each</li>
-    <li>🤞You can't select any option once time goes off.</li>
-    <li>⚖You can't exit from the Quiz while you're playing.</li>
-    <li>🎃Once you select your answer, it can't be undone.</li>
-   <li>⏳sliding bar running based on time</li>
+    <li style="list-style:none;">⏱You will have only <span>15 seconds</span> per each</li>
+    <li style="list-style:none;">🤞You can't select any option once time goes off.</li>
+    <li style="list-style:none;">⚖You can't exit from the Quiz while you're playing.</li>
+    <li style="list-style:none;">🎃Once you select your answer, it can't be undone.</li>
+   <li style="list-style:none;">⏳sliding bar running based on time</li>
   </ul>
  
  # Some snippets of interface
