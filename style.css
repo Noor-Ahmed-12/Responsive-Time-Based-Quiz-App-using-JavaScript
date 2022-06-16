@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: aliceblue;
+}
+.start_btn{
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+}
+ .card-info, .card-quiz, .card-result{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-shadow: 3px 3px 2px;
+    box-shadow: 3px 2px 2px;
+    box-shadow: 3px 4px 2px;
+    opacity: 0;
+}
+.info-btn, .qst-next-btn{
+    display: flex;
+    justify-content: flex-end;
+    transition: all .5 ease-in;
+}
+.card-info{
+  opacity: 0;
+  pointer-events: none;
+  z-index: 7;
+} 
+
+.card-quiz .next-btn{
+    display: none;
+}
+.card-info.activeInfo , .card-quiz.activeQuiz,
+.card-result.activeResult{
+    opacity: 1;
+    /* z-index: 5; */
+    pointer-events: auto;
+    transform: translate(-50% , -50%);
+  } 
+  
+.card-result.activeResult{
+    z-index: 5;
+}
+
+.qst-footer-txt span{
+    font-weight: bold;
+}
+.qst-option{
+    background-color: aliceblue;
+    margin: 14px 0;
+    padding: 20px 0;
+    width: 85%;
+    margin:auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.qst-option:hover{
+    background-color: rgb(221, 237, 252);
+}
+.qst-option .icon.tick, .icon.cross{
+    color:green;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 26px;
+    height:26px;
+    line-height: 26px;
+    font-size: 15px;
+    text-align: center;
+    pointer-events: none;
+}
+.icon.cross{
+    color:red;
+    border: 1px solid red;
+}
+
+.quiz-opt-list .opt-correct{
+    color:green;
+    background-color: aliceblue;
+    border: 0px solid green;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.quiz-opt-list .opt-incorrect{
+    color:rgb(248, 91, 91);
+    background-color: rgb(248, 209, 214);
+    border: 0px solid rgb(224, 18, 18);
+    padding-left: 10px;
+}
+
+.card-quiz.activeQuiz{
+    opacity: 1;
+    z-index: 3;
+    pointer-events: auto;
+    transform: translate(-50% , -50%);
+  } 
+  .card-quiz .time_line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: rgb(21, 129, 223);
+}
+.score-text{
+    margin:10px ;
+    margin-left: 7px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: center;
+}
+.complete-text{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.card-result{
+    opacity: 0;
+}
+
+.quiz-opt-list .qst-option.disabled{
+    pointer-events: none;
+}
